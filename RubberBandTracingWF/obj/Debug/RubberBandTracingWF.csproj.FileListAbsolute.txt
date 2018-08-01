@@ -1,0 +1,11 @@
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\bin\Debug\RubberBandTracingWF.exe.config
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\bin\Debug\RubberBandTracingWF.exe
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\bin\Debug\RubberBandTracingWF.pdb
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\obj\Debug\RubberBandTracingWF.csprojResolveAssemblyReference.cache
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\obj\Debug\RubberBandTracingWF.MainForm.resources
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\obj\Debug\RubberBandTracingWF.Properties.Resources.resources
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\obj\Debug\RubberBandTracingWF.csproj.GenerateResource.Cache
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\obj\Debug\RubberBandTracingWF.csproj.CoreCompileInputs.cache
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\obj\Debug\RubberBandTracingWF.exe
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\obj\Debug\RubberBandTracingWF.pdb
+C:\Users\Bergmann\Desktop\x\Spiele\RubberBandTracingWF\RubberBandTracingWF\bin\Debug\RubberBandTracingWF.xml

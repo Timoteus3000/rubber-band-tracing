@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RubberBandTracingWF</name>
+    </assembly>
+    <members>
+        <member name="F:RubberBandTracingWF.MainForm.components">
+            <summary>
+            Erforderliche Designervariable.
+            </summary>
+        </member>
+        <member name="M:RubberBandTracingWF.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Verwendete Ressourcen bereinigen.
+            </summary>
+            <param name="disposing">True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.</param>
+        </member>
+        <member name="M:RubberBandTracingWF.MainForm.InitializeComponent">
+            <summary>
+            Erforderliche Methode für die Designerunterstützung.
+            Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+            </summary>
+        </member>
+        <member name="T:RubberBandTracingWF.MainProgram">
+            <summary>
+            Main-Class.
+            </summary>
+        </member>
+        <member name="M:RubberBandTracingWF.MainProgram.Main">
+            <summary>
+            The main entrance point for this program.
+            </summary>
+        </member>
+        <member name="T:RubberBandTracingWF.RubberBandSnakeGame.Snake">
+            <summary>
+            A class who presents a snake with one head and a list of tails.
+            </summary>
+        </member>
+        <member name="M:RubberBandTracingWF.RubberBandSnakeGame.Snake.DrawMe(System.Drawing.Graphics)">
+            <summary>
+            Draws the current snake.
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="T:RubberBandTracingWF.RubberBandTracing.HeadCircle">
+            <summary>
+            A class who presents a head from a snake.
+            </summary>
+        </member>
+        <member name="M:RubberBandTracingWF.RubberBandTracing.HeadCircle.DrawMe(System.Drawing.Graphics)">
+            <summary>
+            Draws the current head.
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="T:RubberBandTracingWF.RubberBandTracing.TailCircle">
+            <summary>
+            A class who presents a tail from a snake.
+            </summary>
+        </member>
+        <member name="M:RubberBandTracingWF.RubberBandTracing.TailCircle.DrawMe(System.Drawing.Graphics)">
+            <summary>
+            Draws the current tail.
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="T:RubberBandTracingWF.Vector2DLibrary.Vector2D">
+            <summary>
+            A class who presents a two dimensional vector, with a X- and a Y-coordinate.
+            </summary>
+        </member>
+        <member name="P:RubberBandTracingWF.Vector2DLibrary.Vector2D.XCoordinate">
+            <summary>X-Position of the <see cref="T:RubberBandTracingWF.Vector2DLibrary.Vector2D"/>.</summary>
+        </member>
+        <member name="P:RubberBandTracingWF.Vector2DLibrary.Vector2D.YCoordinate">
+            <summary>Y-Position of the <see cref="T:RubberBandTracingWF.Vector2DLibrary.Vector2D"/>.</summary>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.#ctor">
+            <summary>
+            Initialized a new <see cref="T:RubberBandTracingWF.Vector2DLibrary.Vector2D"/>-object with standard position (0|0).
+            </summary>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.#ctor(System.Double,System.Double)">
+            <summary>
+            Initialized a new <see cref="T:RubberBandTracingWF.Vector2DLibrary.Vector2D"/>-object with the passed position.
+            </summary>
+            <param name="xCoordinate">X-coordinate</param>
+            <param name="yCoordinate">Y-coordinate</param>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.#ctor(RubberBandTracingWF.Vector2DLibrary.Vector2D)">
+            <summary>
+            Initialized a new <see cref="T:RubberBandTracingWF.Vector2DLibrary.Vector2D"/>-object with the X- and Y-coordinate from the passed <see cref="T:RubberBandTracingWF.Vector2DLibrary.Vector2D"/>.
+            </summary>
+            <param name="copyVec2D"><see cref="T:RubberBandTracingWF.Vector2DLibrary.Vector2D"/>-reference to copy.</param>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.GetLength">
+            <summary>
+            Returns the length of this vector.
+            </summary>
+            <returns>Length of this vector.</returns>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.Normalize">
+            <summary>
+            Normalized this vector.
+            </summary>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.GetCopy">
+            <summary>
+            Return a copy of this vector.
+            </summary>
+            <returns>Copy of this vector.</returns>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.Add(RubberBandTracingWF.Vector2DLibrary.Vector2D)">
+            <summary>
+            Adds the coordinates from the passed vector to this vector.
+            </summary>
+            <param name="addVec2D"></param>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.Sub(RubberBandTracingWF.Vector2DLibrary.Vector2D)">
+            <summary>
+            Substracted the coordinates from the passed vector to this vector.
+            </summary>
+            <param name="addVec2D"></param>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.Multiply(RubberBandTracingWF.Vector2DLibrary.Vector2D)">
+            <summary>
+            Multiplied the coordinates from the passed vector to this vector.
+            </summary>
+            <param name="addVec2D"></param>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.Multiply(System.Double)">
+            <summary>
+            Multiplied the passed scalar to the coordinates of this vector.
+            </summary>
+            <param name="scalar"></param>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.Divide(RubberBandTracingWF.Vector2DLibrary.Vector2D)">
+            <summary>
+            Divided the coordinates from the passed vector to this vector.
+            </summary>
+            <param name="addVec2D"></param>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.ScalarProd(RubberBandTracingWF.Vector2DLibrary.Vector2D)">
+            <summary>
+            Returns the scalar product from this vector with the passed vector.
+            </summary>
+            <param name="rightVec2D"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.CrossProd(RubberBandTracingWF.Vector2DLibrary.Vector2D)">
+            <summary>
+            Returns the crodd product from this vector with the passed vector.
+            </summary>
+            <param name="rightVec2D"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.Equals(System.Object)">
+            <summary>
+            Determines whether the specified object is identical to the current object.
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RubberBandTracingWF.Vector2DLibrary.Vector2D.GetHashCode">
+            <summary>
+            Acts as the default hash function.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:RubberBandTracingWF.Properties.Resources">
+            <summary>
+              Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+            </summary>
+        </member>
+        <member name="P:RubberBandTracingWF.Properties.Resources.ResourceManager">
+            <summary>
+              Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+            </summary>
+        </member>
+        <member name="P:RubberBandTracingWF.Properties.Resources.Culture">
+            <summary>
+              Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+              Ressourcenlookups, die diese stark typisierte Ressourcenklasse verwenden.
+            </summary>
+        </member>
+    </members>
+</doc>
